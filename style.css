@@ -1,0 +1,61 @@
+/*reset basico*/ 
+    *{
+margin: 0%;
+padding:0% ;
+    box-sizing: border-box;/* definir o tamanho da caixa*/
+}
+body{
+background-color: blueviolet;
+}    
+
+h1 {
+    color: hotpink;
+background-color: white;
+}
+/*pseudo classe e uma palavra chave adicionada ao seletor que define o estilo de um elemento quando ele esta em um estado especifico*/
+
+/*hover significa sobre, ou seja quando o mouse esta sobre o elemento muda */
+h1:hover{
+background-color: black;
+color: orangered;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: black;
+background-color: cyan;
+}
+h2:active{
+    background-color: cornflowerblue;
+    color: dimgray;
+}
+#killua {
+    width: 100%;
+    height: 400px;
+    background-color: lightblue;
+
+
+}
+.gon {
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+    background-color: rgb(245, 73, 73);
+    display: inline-block;
+    margin-left: 160px;
+    text-align: center;
+    padding-top: 30px;
+    height: 100px;
+
+}/* transforme - transforma o elemento 
+scale() - altera o tamanho (escala) do elemento
+traslate () move um elemento em sua posiçao */
+.gon:hover{
+    color: crimson;
+    background-color: rgb(74, 74, 192);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: rotatey(40rad);
+    transition: 3s;
+}
+
+
+
